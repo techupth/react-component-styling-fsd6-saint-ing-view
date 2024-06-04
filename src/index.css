@@ -56,6 +56,48 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.button-components-primary {
+  background-color: #074ee8;
+}
+.button-components-secondary {
+  background-color: #07a4e8;
+}
+
+.alert-components-section {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.alert-error {
+  background-color: #f9c8c8;
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+  color: #1a1a1a;
+}
+.alert-warning {
+  background-color: #f9d9c8;
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+  color: #1a1a1a;
+}
+.alert-info {
+  background-color: #f9ebc8;
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+  color: #1a1a1a;
+}
+.alert-success {
+  background-color: #cef7cd;
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+  color: #1a1a1a;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
